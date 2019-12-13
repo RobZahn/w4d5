@@ -14,6 +14,7 @@ Example:
 
     list = [ 0, 3, 5, 4, -5, 10, 1, 90 ]
     my_min(list)  # =>  -5
+
 Phase I
 First, write a function that compares each element to every other element of the list. Return the element if all other elements in the array are larger.
 What is the time complexity for this function?
@@ -47,6 +48,7 @@ Example 3:
 
     list = [-5, -1, -3]
     largest_contiguous_subsum(list) # => -1 (from [-1])
+    
 Phase I
 Write a function that iterates through the array and finds all sub-arrays using nested loops. First make an array to hold all sub-arrays. Then find the sums of each sub-array and return the max.
 
